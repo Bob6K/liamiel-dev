@@ -41,13 +41,13 @@ function Header() {
           </Link>
           <Link
             href="/changelog"
-            className="hidden font-heading font-medium tracking-[0.02em] text-[var(--color-muted-light)] transition-colors duration-200 hover:text-[var(--color-brand)] dark:inline dark:text-white/70 dark:hover:text-white"
+            className="font-heading font-medium tracking-[0.02em] text-[var(--color-muted-light)] transition-colors duration-200 hover:text-[var(--color-brand)] dark:text-white/70 dark:hover:text-white"
           >
             Changelog
           </Link>
           <Link
             href="/faq"
-            className="hidden font-heading font-medium tracking-[0.02em] text-[var(--color-muted-light)] transition-colors duration-200 hover:text-[var(--color-brand)] dark:inline dark:text-white/70 dark:hover:text-white"
+            className="font-heading font-medium tracking-[0.02em] text-[var(--color-muted-light)] transition-colors duration-200 hover:text-[var(--color-brand)] dark:text-white/70 dark:hover:text-white"
           >
             FAQ
           </Link>
