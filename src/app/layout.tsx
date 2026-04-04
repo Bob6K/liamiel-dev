@@ -70,7 +70,7 @@ function Footer() {
   return (
     <footer className="border-t border-black/5 py-8 dark:border-white/10">
       <div className="mx-auto flex max-w-6xl flex-col gap-4 px-6 text-sm text-[var(--color-muted-light)] dark:text-white/45 md:flex-row md:items-center md:justify-between">
-        <span>© 2026 Liamiel. Built by Liamiel.</span>
+        <span>Built by Liamiel.</span>
         <div className="flex items-center gap-5">
           <Link
             href="/privacy/tabnotes"
