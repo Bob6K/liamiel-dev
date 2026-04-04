@@ -41,7 +41,7 @@ export default function FAQPage() {
           {faqs.map((faq) => (
             <div key={faq.q}>
               <h2 className="font-heading text-lg font-bold">{faq.q}</h2>
-              <p className="mt-2 text-white/60 font-body leading-relaxed">{faq.a}</p>
+              <p className="mt-2 font-body leading-relaxed text-[var(--color-brand)] dark:text-white/60">{faq.a}</p>
             </div>
           ))}
 
@@ -49,10 +49,10 @@ export default function FAQPage() {
             <h2 className="font-heading text-lg font-bold">
               Where is the privacy policy?
             </h2>
-            <p className="mt-2 text-white/60 font-body leading-relaxed">
+            <p className="mt-2 font-body leading-relaxed text-[var(--color-brand)] dark:text-white/60">
               <Link
                 href="/privacy/tabnotes"
-                className="underline underline-offset-4 transition-colors duration-200 hover:text-white"
+                className="underline underline-offset-4 transition-colors duration-200 hover:text-[var(--color-accent)] dark:hover:text-white"
               >
                 Privacy Policy
               </Link>

@@ -16,10 +16,10 @@ export default function ChangelogPage() {
         <article className="mt-14">
           <div className="flex items-baseline gap-4">
             <h2 className="font-heading text-2xl font-bold">v1.0</h2>
-            <span className="text-sm text-white/40">April 2026</span>
+            <span className="text-sm text-[var(--color-brand)]/70 dark:text-white/40">April 2026</span>
           </div>
-          <p className="mt-3 text-white/50 font-body">Initial release.</p>
-          <ul className="mt-4 space-y-2 text-white/70 font-body">
+          <p className="mt-3 font-body text-[var(--color-brand)] dark:text-white/50">Initial release.</p>
+          <ul className="mt-4 space-y-2 font-body text-[var(--color-accent)] dark:text-white/70">
             {[
               "Floating window (⌘T toggle)",
               "Projects + tabbed notes",
@@ -34,7 +34,7 @@ export default function ChangelogPage() {
               "Keyboard shortcuts overlay (⌘/)",
             ].map((item) => (
               <li key={item} className="flex items-start gap-2 text-sm">
-                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-white/30" />
+                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-brand)]/30 dark:bg-white/30" />
                 {item}
               </li>
             ))}
