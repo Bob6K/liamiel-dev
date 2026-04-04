@@ -9,13 +9,13 @@ export default function ChangelogPage() {
   return (
     <section className="py-32">
       <div className="mx-auto max-w-2xl px-6">
-        <h1 className="font-heading text-4xl font-extrabold tracking-[-0.04em]">
+        <h1 className="font-heading text-4xl font-extrabold tracking-[-0.04em] text-[var(--color-ink)] dark:text-white">
           Tabnotes Changelog
         </h1>
 
         <article className="mt-14">
           <div className="flex items-baseline gap-4">
-            <h2 className="font-heading text-2xl font-bold">v1.0</h2>
+            <h2 className="font-heading text-2xl font-bold text-[var(--color-ink)] dark:text-white">v1.0</h2>
             <span className="text-sm text-[var(--color-brand)]/70 dark:text-white/40">April 2026</span>
           </div>
           <p className="mt-3 font-body text-[var(--color-brand)] dark:text-white/50">Initial release.</p>

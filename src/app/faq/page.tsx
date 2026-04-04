@@ -33,20 +33,20 @@ export default function FAQPage() {
   return (
     <section className="py-32">
       <div className="mx-auto max-w-2xl px-6">
-        <h1 className="font-heading text-4xl font-extrabold tracking-[-0.04em]">
+        <h1 className="font-heading text-4xl font-extrabold tracking-[-0.04em] text-[var(--color-ink)] dark:text-white">
           Frequently Asked Questions
         </h1>
 
         <div className="mt-14 space-y-8">
           {faqs.map((faq) => (
             <div key={faq.q}>
-              <h2 className="font-heading text-lg font-bold">{faq.q}</h2>
+              <h2 className="font-heading text-lg font-bold text-[var(--color-ink)] dark:text-white">{faq.q}</h2>
               <p className="mt-2 font-body leading-relaxed text-[var(--color-brand)] dark:text-white/60">{faq.a}</p>
             </div>
           ))}
 
           <div>
-            <h2 className="font-heading text-lg font-bold">
+            <h2 className="font-heading text-lg font-bold text-[var(--color-ink)] dark:text-white">
               Where is the privacy policy?
             </h2>
             <p className="mt-2 font-body leading-relaxed text-[var(--color-brand)] dark:text-white/60">
