@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Simplanner Privacy Policy — Liamiel",
-  description: "Privacy policy for Simplanner.",
+  title: "Vivana Privacy Policy — Liamiel",
+  description: "Privacy policy for Vivana.",
 };
 
 export default function SimplannerPrivacyPage() {
@@ -11,15 +11,15 @@ export default function SimplannerPrivacyPage() {
     <section className="py-24 md:py-32">
       <div className="mx-auto max-w-2xl px-6">
         <h1 className="font-heading text-4xl font-extrabold tracking-[-0.04em] text-[var(--color-ink)] dark:text-white">
-          Simplanner Privacy Policy
+          Vivana Privacy Policy
         </h1>
         <p className="mt-4 text-sm text-[var(--color-muted-light)] dark:text-[var(--color-muted-dark)]">
-          Effective date: July 11, 2026 · Last updated: July 11, 2026
+          Effective date: July 11, 2026 · Last updated: August 28, 2026
         </p>
 
         <div className="mt-12 space-y-8 leading-relaxed text-[var(--color-muted-light)] dark:text-[var(--color-muted-dark)]">
           <p>
-            Simplanner (“the App”) is a weekly planner for iPhone published by Liamiel.
+            Vivana (“the App”) is a weekly planner for iPhone published by Liamiel.
           </p>
           <p>
             This page explains what stays on your device, what leaves it when you use the
@@ -90,9 +90,10 @@ export default function SimplannerPrivacyPage() {
             </Section>
 
             <Section n={8} title="Purchases">
-              Simplanner Pro is a one-time purchase handled entirely by Apple’s App Store. Apple
-              processes the payment; we never receive your payment details. The free-trial state
-              is stored on your device in the iOS Keychain.
+              Vivana’s purchases — the Grow one-time unlock and the Bloom subscription — are handled
+              entirely by Apple’s App Store. Apple processes all payments and renewals; we never
+              receive your payment details. The free-trial state is stored on your device in the
+              iOS Keychain.
             </Section>
 
             <Section n={9} title="Notifications">
@@ -122,7 +123,7 @@ export default function SimplannerPrivacyPage() {
             </Section>
 
             <Section n={12} title="Children’s Privacy">
-              Simplanner is not directed to children under 13.
+              Vivana is not directed to children under 13.
             </Section>
 
             <Section n={13} title="Security">
@@ -149,7 +150,7 @@ export default function SimplannerPrivacyPage() {
                 href="/simplanner/support"
                 className="underline underline-offset-4 transition-colors duration-200 hover:text-[var(--color-brand)] dark:hover:text-white/80"
               >
-                Simplanner support page
+                support page
               </Link>
               .
             </Section>
