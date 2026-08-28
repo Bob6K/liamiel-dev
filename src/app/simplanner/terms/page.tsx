@@ -70,7 +70,7 @@ export default function VivanaTermsPage() {
               voice planning many times a day — stays far below these thresholds. If an account’s
               use goes far beyond typical levels, the App may first switch to a more economical
               AI model and, in extreme cases, pause AI features until your next billing cycle;
-              the planner itself always keeps working. Allowances reset with every billing cycle.
+              the planner itself always keeps working. Allowances reset every month.
               We may adjust the thresholds as real usage and AI prices develop; the current
               policy always lives on this page.
             </Section>
