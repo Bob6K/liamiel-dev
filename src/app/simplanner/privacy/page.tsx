@@ -50,8 +50,7 @@ export default function SimplannerPrivacyPage() {
               we also send the names of your current activities and routines, so the AI can
               recognise them correctly. Typed commands go through the same pipeline and the same
               handling, but do not include your activity or routine names: only what you typed is
-              sent. A little context rides along too, such as your timezone and which screen you
-              were on, so the answer makes sense. Nothing else about your plan is included: no
+              sent. Nothing else about your plan is included: no
               blocks, no schedule, no history. Questions about your schedule, such as “what’s on
               Thursday”, are answered on your device; the server only classifies the question and
               never sees your blocks.
@@ -83,8 +82,8 @@ export default function SimplannerPrivacyPage() {
             </Section>
 
             <Section n={6} title="Contact and Feedback">
-              If you use Settings, “Send a bug or idea”, to send a bug report or a suggestion,
-              your message goes to our server so the developer can read it. If you add your email
+              If you use Contact in Settings to send a bug report or a suggestion, your message
+              goes to our server so the developer can read it. If you add your email
               address so we can reply, that goes with it too, along with your app version, iOS
               version and language. There is no device identifier. Unlike a voice recording, a
               message you send here is not deleted: we keep it so we can read and answer it.
@@ -92,10 +91,10 @@ export default function SimplannerPrivacyPage() {
 
             <Section n={7} title="No Identifiers">
               Requests to our server carry no account, device identifier, advertising ID or other
-              personal details. A typed command sends only the app name, your timezone and what
-              you typed. A voice request sends the same context plus the recording and the names
-              of your current activities and routines, so the AI can recognise them; nothing else
-              about your plan travels with it. We could not link a recording to you even if asked
+              personal details. A typed command sends only the app name and what you typed. A
+              voice request sends the same plus the recording and the names of your current
+              activities and routines, so the AI can recognise them; nothing else about your plan
+              travels with it. We could not link a recording to you even if asked
               to.
             </Section>
 
@@ -113,8 +112,9 @@ export default function SimplannerPrivacyPage() {
 
             <Section n={10} title="Usage Signals and No Tracking">
               To understand whether onboarding works, the App sends small anonymous events, such
-              as an event name (“onboarding step 3 shown”), a timestamp, an A/B test label and a
-              short random id that changes every launch. There is no device identifier, no
+              as an event name (“onboarding step 3 shown”), a timestamp, an A/B test label that
+              is one of two values and stays the same on this install, and a short random id that
+              changes every launch. There is no device identifier, no
               advertising identifier and no way for us to tie these events to you. The App
               contains no advertising frameworks, we do not sell data or show ads, and we do not
               use the App Tracking Transparency framework because we track nothing it applies to.
